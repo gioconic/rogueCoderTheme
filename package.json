@@ -1,0 +1,36 @@
+{
+    "name": "rogue-coder",
+    "displayName": "Rogue Coder",
+    "description": "Rogue Coder",
+    "version": "0.0.1",
+    "publisher": "rogueCoder",
+    "engines": {
+        "vscode": "^1.61.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "repository":{
+        "type": "git",
+        "url": ""
+    },
+    "keywords": [
+        "Themes",
+        "rogueCoder",
+        "rogue",
+        "coder",
+        "dark theme",
+        "theme",
+        "dark",
+        "spectrum"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Rogue Coder",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Rogue Coder-color-theme.json"
+            }
+        ]
+    }
+}
